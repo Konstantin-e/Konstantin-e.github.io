@@ -1,0 +1,35 @@
+ul {
+     list-style-type: none;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+
+    
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+li div {
+    height: 90px;
+}
+
+#footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+h1  {
+    text-align: center;
+}
+
+#art {
+    text-align: right;
+}
