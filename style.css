@@ -1,3 +1,10 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+}
 ul {
      list-style-type: none;
      overflow: hidden;
@@ -12,7 +19,7 @@ li {
     display: block;
     text-align: center;
     margin: 10px;
-    background-color: aqua;
+    background-color: #2065c0;
     height: 100px;
     width: 100px;
 }
@@ -24,6 +31,7 @@ li div {
 #footer {
     font-size: 10px;
     text-align: center;
+
 }
 
 h1  {
@@ -32,4 +40,20 @@ h1  {
 
 #art {
     text-align: right;
+}
+
+#navigation li {
+    height: 30px;
+    width: 33.33333%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigation li:hover {
+    background-color:  #144381;
+}
+
+#intro_container {
+    background-color: rgb(219, 219, 219);
 }
