@@ -9,14 +9,15 @@ body {
 
 }
 ul {
+
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    padding: 10px;
-     list-style-type: none;
-     overflow: hidden;
-     margin: 0;
-     padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 25px;
+    
 
     
 }
@@ -29,7 +30,7 @@ li {
     margin: 10px;
     background-color: #2065c0;
     height: 550px;
-    width: 200px;
+    width: 100%;
 }
 /* 
 li div {
@@ -94,18 +95,13 @@ ul li {
     /* position: relative;
     height: 110px;
     width: 110px; */
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
+    transform: scale(1.02);
     background-color:  #144381;
 
 }
- #the_rest {
-  
- }
 
  .folder_wrapper {
+     
      height: 600px;
      padding: 0;
      margin: 0;
