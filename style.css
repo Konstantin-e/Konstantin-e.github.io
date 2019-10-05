@@ -1,14 +1,51 @@
 * {
     margin: 0;
+   
 }
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     position: absolute;
+    background-image: url(img/wood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
 
 }
-ul {
+
+#left_right {
+    /* display: table; */
+    /* background-color: rgba(226, 14, 163, 0.76); */
+    /* height: 1000px; */
+    overflow: auto;
+    position: relative;
+    
+}
+
+#left_column {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    background-color: rgba(80, 80, 80, 0.486);
+}
+
+#side_menu {
+    padding: 0;
+    padding-top: 25px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#right_column {
+    float: right;
+    width: 79.7%;
+}
+
+.folders {
 
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -22,34 +59,37 @@ ul {
     
 }
 
-li {
+.folders li, #navigation li {
     transition: all .4s ease-in-out;
     float: left;
     display: block;
     text-align: center;
     margin: 10px;
-    background-color: #2065c0;
-    height: 550px;
+    background-color: rgba(32,101,192, 0.5);
     width: 100%;
 }
-/* 
-li div {
-    height: 90px;
-} */
+
+.folders li {
+    box-shadow: 5px 5px 5px rgba(59, 59, 59, 0.726);
+    height: 550px;
+}
 
 #footer {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
+    margin-bottom: 10px;
 
 }
 
 h1  {
     transition: ease-in .4s;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
     padding-left: 20px;
+    text-shadow: 5px 5px 5px rgba(59, 59, 59, 0.877);
+    text-align: center;
 }
 
 
@@ -58,30 +98,29 @@ h2 {
     text-align: right;
 }
 
+#navigation {
+    display: table;
+    width: 100%;
+}
 #navigation li {
-    transition: all .3s ease-in-out;
-    height: 30px;
     width: 33.33333%;
     margin: 0;
-    padding: 0;
-    color: white;
+    padding: 7px 0;
+    background-color: rgb(32,101,192);
 }
 
-li:hover {
+
+#navigation li:hover {
     background-color:  #144381;
 }
 
 #intro_container {
     
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(0, 0, 0, 0.596);
     border-radius: 5px;
-    box-shadow: 0px 5px 5px grey;
+    box-shadow: 0px 5px 5px rgba(59, 59, 59, 0.726);
     padding: 20px;
     margin-bottom: 20px;
-}
-
-ul li {
-    box-shadow: 5px 5px 5px grey;
 }
 
 #aboutMe {
@@ -96,14 +135,6 @@ ul li {
     height: 110px;
     width: 110px; */
     transform: scale(1.02);
-    background-color:  #144381;
+    background-color:  rgba(20,67,129, 0.7);
 
 }
-
- .folder_wrapper {
-     
-     height: 600px;
-     padding: 0;
-     margin: 0;
-     border: 0;
- }
