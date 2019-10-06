@@ -3,7 +3,8 @@
    
 }
 body {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -156,6 +157,23 @@ h2 {
     width: 100%
 }
 
+/*-------------social media */
+
+#logo_container a {
+    float: right;
+    /* padding: 5px; */
+}
+
+.fa {
+    color: white;
+    /* padding: 0; */
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
 .code {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -177,6 +195,18 @@ h2 {
     }
     #navigation li {
         width: 100%;
+    }
+    body {
+        background-image: url(img/wood_phone_size.png);
+    }
+    .fa {
+        color: black;
+    }
+    h2 {
+        color: black;
+    }
+    #footer {
+        color: black;
     }
 
   }
