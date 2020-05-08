@@ -1,1 +1,3 @@
-# Here I will be creating and updating my Portfolio/Website
+My first attempt to create a portfolio website.
+
+https://konstantin-e.github.io
